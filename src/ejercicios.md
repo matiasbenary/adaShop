@@ -1,4 +1,4 @@
-#Carrito
+# Carrito
 
 - Se debe crear un state global para el carrito, este debe contener las funciones addProduct,deleteProduct,deletaAllProduct.
 
