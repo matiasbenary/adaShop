@@ -1,6 +1,6 @@
 # Carrito
 
-- Se debe crear un state global para el carrito, este debe contener las funciones addProduct,deleteProduct,deletaAllProduct.
+- Se debe crear un state global para el carrito, este debe contener las funciones addProduct,deleteProduct,deletaAllProduct, calculateTotal.
 
 - Se debe implementar las funciones de cada donde corresponda, ademas de la lectura del carrito.
 
