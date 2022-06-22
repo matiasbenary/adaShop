@@ -1,15 +1,19 @@
-import productsArray from "./products";
 import { Button, Container, Flex, Heading, Input } from "@chakra-ui/react";
-import Card from "./Card";
 import { useState } from "react";
+import Card from "./Card";
+import productsArray from "./products";
 
 const ELEMENT_FOR_PAGE = 3;
 
-const ListOfProducts = ({ addProduct }) => {
+const ListOfProducts = () => {
   const [products, setProduct] = useState(productsArray);
   const [page, setPage] = useState(1);
   const lastPage = Math.ceil(products.length / ELEMENT_FOR_PAGE);
   const offset = ELEMENT_FOR_PAGE * (page - 1);
+
+  const addProduct = () => {
+    console.log("hacer funcion");
+  };
 
   const handleOnKeyPress = (event) => {
     setProduct(
